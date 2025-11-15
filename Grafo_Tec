@@ -1,0 +1,4 @@
+CREATE ()<-[:_RELATED]-(Tecnico)<-[:_RELATED]-(Cliente)<-[:_RELATED]-(Tecnico)<-[:_RELATED]-()-[:_RELATED]->(Cliente)-[:_RELATED]->(n3)-[:_RELATED]->(CPF)-[:_RELATED]->(n3),
+()<-[:_RELATED]-(Cliente)-[:_RELATED]->(CPF),
+()<-[:_RELATED]-(Tecnico)-[:_RELATED]->(),
+(Cliente)-[:_RELATED]->()<-[:_RELATED]-(Tecnico)-[:_RELATED]->()
